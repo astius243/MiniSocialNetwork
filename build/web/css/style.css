@@ -1,0 +1,138 @@
+
+
+#loginBox{
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    padding: 10px;
+    background-image: url("../images/wallpaper.jpg"); 
+}
+
+#loginForm{
+    margin-top: 13%;
+    background: #ffffff; 
+    border-radius: 10px;
+}
+#notFoundBox{
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    padding: 10px;
+    background-image: url("../images/wallpaper.jpg"); 
+}
+
+#notFoundForm{
+    margin-top: 13%;
+    background: #ffffff; 
+    border-radius: 10px;
+}
+#registerBox{
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    padding: 10px;
+    background-image: url("../images/wallpaper.jpg"); 
+}
+
+#registerForm{
+    margin-top: 7%;
+    background: #ffffff; 
+    border-radius: 10px;
+}
+#verificationBox{
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    padding: 10px;
+    background-image: url("../images/wallpaper.jpg"); 
+}
+
+#verificationForm{
+    margin-top: 13%;
+    background: #ffffff; 
+    border-radius: 10px;
+}
+#navbar{
+    background-image: url("../images/wallpaper.jpg");
+    font-weight: bold;
+}
+
+#search{
+    display: flex;
+    flex-direction: row;
+}
+
+.search-btn{
+    float: right;
+}
+
+#articleList{
+    display: inline-block;
+}
+
+#article{
+    width: 30%;
+    height: 49%;
+    margin: 5px 0 5px 10px;
+    float: left;
+}
+
+#post{
+    margin: 5px -10px 10px 10px;
+    height: 49%;
+}
+
+#noti{
+    margin: 0 10px 0 10px;
+    overflow: auto;
+    width: 100%;
+    height: 49%;
+}
+
+#navbar-item:hover{
+    color: white;
+}
+
+#mainArticle{
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    padding: 10px;
+    background-image: url("../images/wallpaper.jpg"); 
+}
+
+#articlePost{
+    margin-top: 10px;
+    height: 87%;
+}
+
+textarea{
+    resize: none;
+}
+
+html { 
+  background: url("../images/wallpaper.jpg")no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    color: black;   
+}
+
+#register label.error{
+    color:red;
+    width:250px;
+}
+#login label.error{
+    color:red;
+    width:250px;
+    font-style: italic;
+}
+#post label.error{
+    color:red;
+    width:250px;
+}
